@@ -1,30 +1,19 @@
 # YOLO11 Video Object Detection Project
 
 ## Overview
-This project utilizes a fine-tuned **YOLO11n** model to perform object detection on videos. The output includes a video annotated with detection results and a JSON file containing detailed detection data (e.g., class name, confidence score, and bounding box coordinates). The project supports customization of frame intervals for JSON extraction and includes GPU acceleration for faster inference.
+This project utilizes a fine-tuned **YOLO11n** model to perform object detection on videos. The output includes a video annotated with detection results and a JSON file containing detailed detection data (e.g., class name, confidence score, and bounding box coordinates).
 
 ## Key Features
 - Fine-tuned **YOLO11n** model for enhanced detection accuracy.
 - Processes video frame by frame and saves annotated output.
 - Generates a JSON file containing detection information for selected frames.
 - Configurable frame interval for JSON generation.
-- Designed for high-performance inference using GPU.
+- Designed for on-board inference using GPU.
 
 ## Training Details
 - **Model**: YOLO11n, fine-tuned on **COCO8**, a subset of the COCO dataset.
 - **Dataset for Fine-Tuning**: [COCO8 Dataset](https://cocodataset.org).
-- **Video Dataset**: Training and testing videos are sourced from the [ImageNet-VidVRD](https://xdshang.github.io/docs/imagenet-vidvrd.html) dataset.
-
-## Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/yolo11-video-object-detection.git
-   cd yolo11-video-object-detection
-   ```
-2. Install dependencies:
-   ```bash
-   pip install ultralytics opencv-python-headless
-   ```
+- **Video Dataset**: Testing videos are sourced from the [ImageNet-VidVRD](https://xdshang.github.io/docs/imagenet-vidvrd.html) dataset.
 
 ## How to Use
 1. Place your input video in the working directory.
@@ -75,30 +64,19 @@ This project utilizes a fine-tuned **YOLO11n** model to perform object detection
 # Projet de Détection d'Objets Vidéo avec YOLO11
 
 ## Vue d'ensemble
-Ce projet utilise un modèle **YOLO11n** affiné pour effectuer la détection d'objets dans des vidéos. Le résultat inclut une vidéo annotée avec les détections et un fichier JSON contenant des données détaillées (par exemple, nom de la classe, score de confiance, et coordonnées des boîtes englobantes). Le projet permet de personnaliser l'intervalle des images pour l'extraction JSON et inclut l'accélération GPU pour une inférence rapide.
+Ce projet utilise un modèle **YOLO11n** affiné pour effectuer la détection d'objets dans des vidéos. Le résultat inclut une vidéo annotée avec les détections et un fichier JSON contenant des données détaillées (par exemple, nom de la classe, score de confiance, et coordonnées des boîtes englobantes).
 
 ## Principales fonctionnalités
 - Modèle **YOLO11n** affiné pour une meilleure précision de détection.
 - Traite les vidéos image par image et sauvegarde les résultats annotés.
 - Génère un fichier JSON contenant les informations de détection pour les images sélectionnées.
 - Intervalle configurable pour la génération JSON.
-- Conçu pour une inférence performante avec un GPU.
+- Conçu pour une inférence sur machine.
 
 ## Détails de l'entraînement
 - **Modèle** : YOLO11n, affiné avec **COCO8**, un sous-ensemble du dataset COCO.
 - **Dataset pour Affinement** : [Dataset COCO8](https://cocodataset.org).
-- **Dataset Vidéo** : Les vidéos d'entraînement et de test proviennent du dataset [ImageNet-VidVRD](https://xdshang.github.io/docs/imagenet-vidvrd.html).
-
-## Installation
-1. Clonez ce dépôt :
-   ```bash
-   git clone https://github.com/yourusername/yolo11-video-object-detection.git
-   cd yolo11-video-object-detection
-   ```
-2. Installez les dépendances :
-   ```bash
-   pip install ultralytics opencv-python-headless
-   ```
+- **Dataset Vidéo** : Les vidéos de test proviennent du dataset [ImageNet-VidVRD](https://xdshang.github.io/docs/imagenet-vidvrd.html).
 
 ## Comment Utiliser
 1. Placez votre vidéo d'entrée dans le répertoire de travail.
