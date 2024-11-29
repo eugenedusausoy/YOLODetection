@@ -1,0 +1,143 @@
+[
+    {
+        "frame": 0,
+        "fps_time": 0.0,
+        "detections": [
+            {
+                "confidence": 0.9216729402542114,
+                "class_id": 0,
+                "class_name": "person"
+            },
+            {
+                "confidence": 0.874035656452179,
+                "class_id": 4,
+                "class_name": "airplane"
+            },
+            {
+                "confidence": 0.8560667037963867,
+                "class_id": 4,
+                "class_name": "airplane"
+            },
+            {
+                "confidence": 0.31928130984306335,
+                "class_id": 7,
+                "class_name": "truck"
+            }
+        ]
+    },
+    {
+        "frame": 87,
+        "fps_time": 3.0,
+        "detections": [
+            {
+                "confidence": 0.9274585843086243,
+                "class_id": 0,
+                "class_name": "person"
+            },
+            {
+                "confidence": 0.8904327154159546,
+                "class_id": 4,
+                "class_name": "airplane"
+            },
+            {
+                "confidence": 0.8332809805870056,
+                "class_id": 4,
+                "class_name": "airplane"
+            },
+            {
+                "confidence": 0.30556046962738037,
+                "class_id": 7,
+                "class_name": "truck"
+            }
+        ]
+    },
+    {
+        "frame": 174,
+        "fps_time": 6.0,
+        "detections": [
+            {
+                "confidence": 0.9343961477279663,
+                "class_id": 0,
+                "class_name": "person"
+            },
+            {
+                "confidence": 0.8503045439720154,
+                "class_id": 4,
+                "class_name": "airplane"
+            },
+            {
+                "confidence": 0.27591031789779663,
+                "class_id": 7,
+                "class_name": "truck"
+            }
+        ]
+    },
+    {
+        "frame": 261,
+        "fps_time": 9.0,
+        "detections": [
+            {
+                "confidence": 0.9406307339668274,
+                "class_id": 0,
+                "class_name": "person"
+            },
+            {
+                "confidence": 0.9214426875114441,
+                "class_id": 4,
+                "class_name": "airplane"
+            },
+            {
+                "confidence": 0.47788164019584656,
+                "class_id": 7,
+                "class_name": "truck"
+            }
+        ]
+    },
+    {
+        "frame": 348,
+        "fps_time": 12.0,
+        "detections": [
+            {
+                "confidence": 0.9311250448226929,
+                "class_id": 0,
+                "class_name": "person"
+            },
+            {
+                "confidence": 0.9096554517745972,
+                "class_id": 4,
+                "class_name": "airplane"
+            },
+            {
+                "confidence": 0.4807683527469635,
+                "class_id": 0,
+                "class_name": "person"
+            },
+            {
+                "confidence": 0.4744561016559601,
+                "class_id": 0,
+                "class_name": "person"
+            },
+            {
+                "confidence": 0.33370867371559143,
+                "class_id": 0,
+                "class_name": "person"
+            }
+        ]
+    },
+    {
+        "frame": 435,
+        "fps_time": 15.0,
+        "detections": [
+            {
+                "confidence": 0.8788249492645264,
+                "class_id": 0,
+                "class_name": "person"
+            },
+            {
+                "confidence": 0.3884764313697815,
+                "class_id": 24,
+                "class_name": "backpack"
+            }
+        ]
+    }
+]

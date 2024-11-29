@@ -1,0 +1,3 @@
+epochs 100
+file size 640
+no freeze
