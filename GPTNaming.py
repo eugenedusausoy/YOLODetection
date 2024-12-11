@@ -4,6 +4,7 @@ import os
 
 # OpenAI API details
 API_URL = "https://api.openai.com/v1/chat/completions"
+MODEL_IDENTIFIER = "gpt-4-turbo"
 API_KEY = ""  # Add your API key here
 
 # Path to the JSON file containing detection data
@@ -31,7 +32,7 @@ messages = [
 
 # Payload for the API request
 payload = {
-    "model": "gpt-4-turbo",
+    "model": MODEL_IDENTIFIER ,
     "messages": messages,
     "temperature": 0.7
 }
